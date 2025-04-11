@@ -1,6 +1,11 @@
 #pragma once
 #include <time.h>
+#include <string>
 #include <stdlib.h>
+#include <iostream>
+#include <vector>
+
+using namespace std;
 
 namespace CppCLRWinFormsProject {
 
@@ -40,6 +45,8 @@ namespace CppCLRWinFormsProject {
 	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ label3;
+
+
 	protected:
 
 	private:
@@ -75,7 +82,7 @@ namespace CppCLRWinFormsProject {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(56, 411);
+			this->button1->Location = System::Drawing::Point(64, 404);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(296, 30);
 			this->button1->TabIndex = 1;
@@ -109,12 +116,12 @@ namespace CppCLRWinFormsProject {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(429, 468);
+			this->ClientSize = System::Drawing::Size(429, 449);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->label1);
-			this->Name = L"RGBColorCodeGenerator";
+			this->Name = L"Form1";
 			this->Text = L"RGBColorCodeGenerator";
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->ResumeLayout(false);
@@ -140,6 +147,10 @@ namespace CppCLRWinFormsProject {
 		label1->Text = "R: " + r ;
 		label2->Text = "G: " + g ;
 		label3->Text = "B: " + b ;
+	
+		
 	}
-	};
+	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
