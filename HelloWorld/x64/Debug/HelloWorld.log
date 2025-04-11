@@ -1,0 +1,6 @@
+﻿  CppCLR_WinFormsProject.cpp
+C:\Users\Ryan\Documents\C++\Project\HelloWorld\Form1.h(134,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'CppCLR_WinFormsProject.cpp')
+  
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  HelloWorld.vcxproj -> C:\Users\Ryan\Documents\C++\Project\HelloWorld\x64\Debug\HelloWorld.exe

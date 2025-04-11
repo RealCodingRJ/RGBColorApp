@@ -1,0 +1,3 @@
+C:\Users\Ryan\Documents\C++\Project\HelloWorld\HelloWorld\x64\Debug\HelloWorld.vcxproj.AssemblyReference.cache
+C:\Users\Ryan\Documents\C++\Project\HelloWorld\HelloWorld\x64\Debug\HelloWorld.Form1.resources
+C:\Users\Ryan\Documents\C++\Project\HelloWorld\HelloWorld\x64\Debug\HelloWorld.vcxproj.GenerateResource.cache
